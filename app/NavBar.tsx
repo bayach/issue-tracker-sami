@@ -13,7 +13,9 @@ const NavBar = () => {
     ]
   return (
     <nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
-        <Link href="/"><AiFillBug/></Link>
+         <Link href="/">
+            <img src="/images/Capture.png" alt=" logo application" className="h-12 w-auto"/>
+         </Link>                
         <ul className='flex space-x-6'>
             {links.map(link =>
             <Link 
